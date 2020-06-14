@@ -1,10 +1,11 @@
 class BankAccount
 
 attr_reader :name
+attr
 
  def initialize(name)
    @name = name
-   @balance = balance
+   @balance = 1000
  end
 
 end
