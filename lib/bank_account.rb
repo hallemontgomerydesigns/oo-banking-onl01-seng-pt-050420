@@ -6,6 +6,7 @@ attr_accessor :balance
  def initialize(name)
    @name = name
    @balance = 1000
+   @status = "Open"
  end
 
 end
