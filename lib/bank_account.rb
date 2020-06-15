@@ -8,5 +8,9 @@ attr_accessor :balance, :status
    @balance = 1000
    @status = "open"
  end
+ 
+ def deposit
+   
+   
 
 end
