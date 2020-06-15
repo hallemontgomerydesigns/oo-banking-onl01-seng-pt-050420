@@ -10,4 +10,6 @@ class Transfer
     @sender = sender
   end
 
+def valid?()
+  
 end
