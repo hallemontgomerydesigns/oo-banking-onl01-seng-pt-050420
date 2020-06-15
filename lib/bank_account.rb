@@ -10,7 +10,8 @@ attr_accessor :balance, :status
  end
  
  def deposit(deposit_amount)
-   self.balance +=
+   self.balance += deposit_amount
+ end
    
 
 end
