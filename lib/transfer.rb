@@ -36,7 +36,7 @@ class Transfer
   end
   
   def reject_transfer
-    self.satuts = "rejected"
+    self.status = "rejected"
     "Transaction rejected. Please check your account balance."
   end
   
