@@ -18,6 +18,6 @@ class Transfer
     if valid? && sender.balance > 0 && self.status == "pending"
       sender.balance -= amount
       receiver.balance += amount
-      self.status
+      self.status = "complete"
   end
 end
