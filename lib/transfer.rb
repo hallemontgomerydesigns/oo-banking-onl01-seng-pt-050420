@@ -33,7 +33,7 @@ class Transfer
     end
   end
   def reject_transfer
-    
+    self.satus = "rejected"
   end
   
 end
