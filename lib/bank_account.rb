@@ -17,5 +17,5 @@ attr_accessor :balance, :status
      "Your balance is $#{balance}."
    end
  def valid?
-   balance > 0 
+   balance > 0 && status = "open"
 end
