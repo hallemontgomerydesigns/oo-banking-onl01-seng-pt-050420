@@ -9,8 +9,8 @@ attr_accessor :balance, :status
    @status = "open"
  end
  
- def deposit
-   
+ def deposit(deposit_amount)
+   self.deposit_amount
    
 
 end
